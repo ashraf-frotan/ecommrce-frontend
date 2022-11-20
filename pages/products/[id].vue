@@ -83,18 +83,9 @@ var products = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia atque dignissimos nisi labore consequatur numquam aspernatur consequuntur iusto suscipit, impedit quam at molestias, nemo eos ad culpa, maiores ullam!",
   },
 ];
-var product = {
-  id: 1,
-  title: "Warm winter coat",
-  price: 12.4,
-  image: "1.jpg",
-  description: "",
-};
-products.forEach((p) => {
-  if (p.id == id) {
-    product = p;
-  }
-});
+
+var product = products.filter((p) => p.id == id);
+product = product[0];
 </script>
 
 <style>
