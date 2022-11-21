@@ -17,7 +17,7 @@ var products = [
     id: 1,
     title: "Warm winter coat",
     price: 12.4,
-    image: "1.jpg",
+    image:  "1.jpg",
     description: "",
   },
   {
