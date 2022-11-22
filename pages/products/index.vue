@@ -12,12 +12,16 @@
 definePageMeta({
   layout: "products",
 });
+useHead({
+  title: "Products",
+  meta: [{ name: "description", content: "products description" }],
+});
 var products = [
   {
     id: 1,
     title: "Warm winter coat",
     price: 12.4,
-    image:  "1.jpg",
+    image: "1.jpg",
     description: "",
   },
   {

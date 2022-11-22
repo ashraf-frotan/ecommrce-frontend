@@ -1,6 +1,6 @@
 <template>
   <div class="card text-center">
-    <img :src="`${product.image}`" alt="product image" class="thumb" />
+    <img src="@/assets/images/1.jpg" alt="product image" class="thumb" />
     <p class="font-bold text-gray-500 m-4 truncate">
       {{ product.title }}
     </p>
@@ -12,7 +12,6 @@
 
 <script setup>
 const { product } = defineProps(["product"]);
-var image="";
 </script>
 
 <style scoped>
